@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.capitals-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #323f4b;
+}
+
+.select-capital-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.drop-down {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #cbd2d9;
+  border-radius: 6px;
+  height: 40px;
+  width: 175px;
+}
+
+.select-capital-text {
+  color: #323f4b;
+  font-size: 22px;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 740;
+}
